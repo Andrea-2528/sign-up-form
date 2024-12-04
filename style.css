@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+body, html {
+    height: 100%; /*So they don't resize*/
+}
+  
+.container-background-image {
+    background-image: url("beach.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
